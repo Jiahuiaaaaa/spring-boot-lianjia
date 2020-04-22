@@ -43,12 +43,6 @@
             <groupId>us.codecraft</groupId>
             <artifactId>webmagic-core</artifactId>
             <version>${webmagic.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>jsoup</artifactId>
-                    <groupId>org.jsoup</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>us.codecraft</groupId>

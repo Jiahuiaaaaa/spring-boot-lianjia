@@ -1,8 +1,0 @@
-com\yi\lianjia\service\impl\LianjiaInfoServiceImpl.class
-com\yi\lianjia\pipeline\CrawlerLianJiaPipeline.class
-com\yi\lianjia\config\Config.class
-com\yi\lianjia\model\LianjiaInfo.class
-com\yi\lianjia\controller\Controller.class
-com\yi\lianjia\service\LianjiaInfoService.class
-com\yi\lianjia\mapper\LianjiaInfoMapper.class
-com\yi\lianjia\SpringBootLianjiaApplication.class

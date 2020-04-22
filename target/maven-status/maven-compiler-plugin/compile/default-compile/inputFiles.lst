@@ -1,8 +1,0 @@
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\SpringBootLianjiaApplication.java
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\config\Config.java
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\mapper\LianjiaInfoMapper.java
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\controller\Controller.java
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\pipeline\CrawlerLianJiaPipeline.java
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\service\impl\LianjiaInfoServiceImpl.java
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\model\LianjiaInfo.java
-D:\WORKSPACE\IDEA-WORKSPACE\spring-boot-2.x-examples-master\spring-boot-lianjia\src\main\java\com\yi\lianjia\service\LianjiaInfoService.java
