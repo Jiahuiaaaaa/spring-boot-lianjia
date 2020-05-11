@@ -1,6 +1,6 @@
 package com.yi.lianjia.controller;
 
-import com.yi.lianjia.pipeline.CrawlerLianJiaPipeline;
+
 import com.yi.lianjia.service.LianjiaInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-    @Autowired
-    private CrawlerLianJiaPipeline crawlerLianJiaPipeline;
+
     @Autowired
     private LianjiaInfoService lianjiaInfoService;
 

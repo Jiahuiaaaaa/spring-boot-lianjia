@@ -15,7 +15,7 @@ class SpringBootLianjiaApplicationTests {
      */
     @Test
     void contextLoads() {
-        for (int i = 61; i <= 100; i++) {
+        for (int i =75; i <= 100; i++) {
             lianjiaInfoService.cronTask(i);
             System.out.println("---------------------------------当前爬取到了第"+i+"页--------------------------");
         }

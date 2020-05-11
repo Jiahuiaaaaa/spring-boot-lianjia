@@ -3,7 +3,6 @@ package com.yi.lianjia.service.impl;
 import cn.hutool.core.lang.Dict;
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yi.lianjia.config.Config;
 import com.yi.lianjia.mapper.LianjiaInfoMapper;
 import com.yi.lianjia.model.LianjiaInfo;
 import com.yi.lianjia.pipeline.CrawlerLianJiaPipeline;
@@ -16,6 +15,8 @@ import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.processor.PageProcessor;
 
 import java.util.List;
+
+import static com.yi.lianjia.config.Config.PRON_URL;
 
 /**
  * 自定义实现类
@@ -41,7 +42,7 @@ public class LianjiaInfoServiceImpl extends ServiceImpl<LianjiaInfoMapper, Lianj
 
     @Override
     public void cronTask(int page) {
-        String url = StrUtil.format(Config.PRON_URL, Dict.create().set("page", page));
+        String url = StrUtil.format(PRON_URL, Dict.create().set("page", page));
         Spider.create(new LianjiaInfoServiceImpl()).addUrl(url).thread(5).addPipeline(pronPipeline).run();
     }
 
