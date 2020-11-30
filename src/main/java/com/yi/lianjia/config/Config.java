@@ -17,5 +17,5 @@ public class Config {
      * xz 徐州
      * sjz 石家庄
      */
-    public static final String PRON_URL = "https://nj.lianjia.com/ershoufang/pg{page}";
+    public static final String PRON_URL = "https://sjz.lianjia.com/ershoufang/pg{page}";
 }
