@@ -12,10 +12,12 @@ import org.springframework.context.annotation.Configuration;
 @MapperScan(basePackages = {"com.yi.lianjia.mapper"})
 public class Config {
     /**
+     *
+     *
      * 页面地址
      * nj 南京
      * xz 徐州
      * sjz 石家庄
      */
-    public static final String PRON_URL = "https://nj.lianjia.com/ershoufang/pg{page}";
+    public static final String PRON_URL = "https://sjz.lianjia.com/ershoufang/pg{page}";
 }
