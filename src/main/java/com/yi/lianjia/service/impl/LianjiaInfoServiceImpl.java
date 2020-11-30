@@ -38,7 +38,7 @@ public class LianjiaInfoServiceImpl extends ServiceImpl<LianjiaInfoMapper, Lianj
             .addHeader("Connection", "keep-alive")
             .addHeader("DNT", "1")
             // nj 南京地区  xz徐州地区  sjz石家庄
-            .addHeader("Host", "sjz.lianjia.com");
+            .addHeader("Host", "nj.lianjia.com");
 
     @Override
     public void cronTask(int page) {
